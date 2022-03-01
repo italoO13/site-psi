@@ -87,7 +87,7 @@ a {
 
 .header-1 {
     width: 100%;
-    height: 10rem;
+    height: 100px;
     background-color: rgba(255,255,255,0.4);
     position: fixed;
     top: 0;
@@ -210,6 +210,7 @@ a {
 
 .hero-conteudo {
     padding-top: 40px;
+    max-width: 1400px;
     justify-content: space-between;
     align-items: center;
 }
@@ -231,6 +232,7 @@ a {
     letter-spacing: 0.2rem;
     color: var(--primeira-cor);
     margin-bottom: 20px;
+
 }
 
 
@@ -288,8 +290,65 @@ a {
 .hero_img {
     width: 500px;
 
+
 }
 
 .hero_img img {
     width: 100%;
 }
+
+
+
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero_img {
+        margin-top: 20px;
+        width: 450px;
+    }
+
+    .hero_texto h1 {
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width:1065px) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero_img {
+        margin-top: 20px;
+        width: 400px;
+    }
+
+    .hero_texto h1 {
+        margin-top: 20px;
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (max-width:1065px) {
+
+    .hero-conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_img {
+        width: 200px;
+    }
+
+    .hero_texto h1 {
+        margin-top: 20px;
+        max-width: 400px;
+    }
+}
+
+
+
+/* SOBRE MIM */
+
