@@ -24,7 +24,7 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-    Este site foi criado para uma concluinte em psicologia, tinha como objetivo apresentar seus serviços e possuir um sistema de marcação de consultas.
+Este site foi criado para uma concluinte em psicologia, tinha como objetivo apresentar seus serviços e possuir um sistema de marcação de consultas.
 
 
 ---
